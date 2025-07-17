@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/devnull03/commission-common.git"
+		"url": "git+https://github.com/devnull03/commission-common.git"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
@@ -37,8 +37,7 @@
 		}
 	},
 	"peerDependencies": {
-
-		
+		"@sveltejs/kit": "^2.0.0",
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
@@ -68,6 +67,7 @@
 	},
 	"dependencies": {
 		"@lucide/svelte": "^0.525.0",
-		"gsap": "^3.13.0"
+		"gsap": "^3.13.0",
+		"tailwindcss": "^4.0.0"
 	}
 }
